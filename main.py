@@ -6,7 +6,7 @@ from mediapipe.tasks.python import vision
 import pyautogui
 print(dir(vision))
 base_options = python.BaseOptions(
-    model_asset_path="C:\\Users\\rohan\\Desktop\\Atomic\\GB-HCI\\Models\\hand_landmarker.task"
+    model_asset_path="./hand_landmarker.task"
 )
 options = vision.HandLandmarkerOptions(
     base_options=base_options,
